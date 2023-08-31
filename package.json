@@ -1,0 +1,22 @@
+{
+  "name": "jtranspose",
+  "version": "0.0.1",
+  "description": "jQuery plugin to transpose (invert rows and columns) of an HTML table",
+  "main": "jTranspose.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:optimumweb/jTranspose.git"
+  },
+  "keywords": [
+    "jquery",
+    "transpose",
+    "table"
+  ],
+  "author": "Jonathan Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optimumweb/jTranspose/issues"
+  },
+  "homepage": "https://github.com/optimumweb/jTranspose"
+}

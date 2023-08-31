@@ -1,6 +1,6 @@
 # jTranspose
 
-> A jQuery plugin to transpose (invert rows and columns) of an HTML table
+> jQuery plugin to transpose (invert rows and columns) of an HTML table
 
 ## How to use
 

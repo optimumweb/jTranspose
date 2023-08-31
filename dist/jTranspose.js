@@ -1,5 +1,5 @@
 (function($) {
-    $.fn.jTranpose = function () {
+    $.fn.jTranspose = function () {
         return this.each(function () {
             let $table = $(this),
                 $rows = $table.find('tr'),
