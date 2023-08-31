@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>jTranpose</title>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="./dist/jTranpose.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('#table').jTranpose();
+            });
+        </script>
+    </head>
+    <body>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Population</th>
+                    <th>Animal</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr id="y2010">
+                    <td>2010</td>
+                    <td>One</td>
+                    <td>Tiger</td>
+                </tr>
+
+                <tr id="y2011">
+                    <td>2011</td>
+                    <td>Two</td>
+                    <td>Rabit</td>
+                </tr>
+
+                <tr id="y2012">
+                    <td>2012</td>
+                    <td>Three</td>
+                    <td>Dragon</td>
+                </tr>
+
+                <tr id="y2013">
+                    <td>2013</td>
+                    <td>Four</td>
+                    <td>Snake</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
